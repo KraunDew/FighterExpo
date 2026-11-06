@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     [Header("Máquina de Estados")]
     public bool isDead = false;
     public bool isStunned = false; // Crítico en juegos de pelea (hitstun)
+    public float life = 100f;
 
     void Start()
     {
